@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not In Line</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- Accordian -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img
+              src="./assets//logo-mobile-desktop.png"
+              class="nav-logo"
+              alt=""
+            />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <ul class="nav-links" id="nav-links">
+            <!-- single link -->
+            <li>
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#" class="nav-link">Health conditions</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#" class="nav-link special">Lab tests</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#" class="nav-link">medicines</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link special">
+                <button class="btn btn-nav mobile">for patients</button>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link special">
+                <button class="btn btn-nav mobile">for patients</button>
+              </a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#" class="nav-link">
+                <button class="btn btn-play-store mobile">
+                  <i class="fab fa-google-play"></i> play store
+                </button>
+              </a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+
+          <ul class="nav-icons">
+            <li>
+              <a href="#" class="nav-link special">
+                <button class="btn btn-nav">for patients</button>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link special">
+                <button class="btn btn-nav">for patients</button>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <button class="btn btn-play-store">
+                  <i class="fab fa-google-play"></i> play store
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero-center">
+        <div class="hero">
+          <div class="desktop-form-container">
+            <div class="form-container">
+              <p class="form-para">Fill in the details to get a call!</p>
+              <form id="form">
+                <div class="form-input-container">
+                  <i class="fas fa-address-book"></i>
+                  <input type="text" placeholder="Enter Name" />
+                </div>
+                <div class="form-input-container">
+                  <i class="fas fa-phone"></i>
+                  <input type="text" placeholder="Enter Name" />
+                </div>
+                <div class="form-input-container">
+                  <i class="fas fa-map"></i>
+                  <input type="text" placeholder="Enter Name" />
+                </div>
+
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  required
+                  id="checkbox"
+                />
+                <label for="checkbox" class="form-label"
+                  >By continuing, you agree to our T&C and privacy policy</label
+                >
+                <button type="submit" class="btn submit-btn">Proceed</button>
+              </form>
+            </div>
+            <div class="desktop-shapes">
+              <div class="shape shape-1">
+                <p class="shape-para">
+                  Get Full Body Check up Now at ₹
+                  <span class="shape-span">5000</span> ₹ 999
+                </p>
+              </div>
+              <div class="shape shape-2">
+                <p class="shape-para">70% off</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="shapes-container">
+            <div class="mobile-shapes">
+              <div class="shape shape-1">
+                <p class="shape-para">Get Full Body Check up Now at</p>
+              </div>
+              <div class="shape shape-2">
+                <p class="shape-para">
+                  ₹ <span class="shape-span">5000</span> ₹ 999 70% off
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-banner-container">
+            <h3 class="banner-head">
+              <span class="banner-span">Best in class</span> lab tests!
+            </h3>
+            <div class="image-container">
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/Component_1_ojvwfj.png"
+                class="banner-image"
+                alt="woman-with-microscope"
+              />
+              <div class="top-cards-container">
+                <div class="top-card top-card-1">
+                  <div class="top-card-img">
+                    <img
+                      src="https://res.cloudinary.com/pirateking/image/upload/v1695130832/c4319cc9c2681c5efc1bade0f97b2d5c_nlnv06.png"
+                      alt="top-card"
+                      class="top-card-img"
+                    />
+                  </div>
+                  <div class="top-card-review">
+                    <p class="top-review-para">Timely sample collection</p>
+                  </div>
+                </div>
+                <div class="top-card top-card-2">
+                  <div class="top-card-img">
+                    <img
+                      src="https://res.cloudinary.com/pirateking/image/upload/v1695130832/c4319cc9c2681c5efc1bade0f97b2d5c_nlnv06.png"
+                      alt="top-card"
+                      class="top-card-img"
+                    />
+                  </div>
+                  <div class="top-card-review">
+                    <p class="top-review-para">Timely sample collection</p>
+                  </div>
+                </div>
+                <div class="top-card top-card-3">
+                  <div class="top-card-img">
+                    <img
+                      src="https://res.cloudinary.com/pirateking/image/upload/v1695130832/c4319cc9c2681c5efc1bade0f97b2d5c_nlnv06.png"
+                      alt="top-card"
+                      class="top-card-img"
+                    />
+                  </div>
+                  <div class="top-card-review">
+                    <p class="top-review-para">Timely sample collection</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-center service-center">
+        <article class="service">
+          <div>
+            <img
+              src="https://res.cloudinary.com/pirateking/image/upload/v1695301783/e91d102639f41043c322314c3ab279bd_xfcx93.png"
+              alt="service"
+              class="service-image"
+            />
+          </div>
+          <p class="service-text">NABL Accredited Labs</p>
+        </article>
+
+        <div class="service">
+          <article>
+            <img
+              src="https://res.cloudinary.com/pirateking/image/upload/v1695136377/48b6f09ac6397f001423d9fc2925bf16_arlt3d.png"
+              alt="service"
+              class="service-image"
+            />
+          </article>
+          <p class="service-text">Free sample collection</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>we keep <span class="banner-span">expanding</span></h2>
+      </div>
+
+      <div class="section-center expanding">
+        <div class="expanding-boxes">
+          <div class="box">
+            <h4 class="box-head">5+</h4>
+            <p class="box-para">Labs</p>
+          </div>
+          <div class="box">
+            <h4 class="box-head">100+</h4>
+            <p class="box-para">Collection centers</p>
+          </div>
+          <div class="box">
+            <h4 class="box-head">1000+</h4>
+            <p class="box-para">Monthly tests</p>
+          </div>
+          <div class="box">
+            <h4 class="box-head">2200</h4>
+            <p class="box-para">Test menu</p>
+          </div>
+          <div class="box">
+            <h4 class="box-head">5+</h4>
+            <p class="box-para">Cities present in</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-packages">
+      <div class="section-title">
+        <h2>Top <span class="banner-span">packages</span></h2>
+        <p class="package-para">
+          Explore our wide range of tests! We ensure that you don’t miss out on
+          any chance to keep yourself healthy.
+        </p>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <h3 class="card-head">Basic Full Body Checkup</h3>
+          <p class="card-review">
+            4.3 <i class="fas fa-star card-star"></i> ( 75 Reviews )
+          </p>
+          <h4 class="card-sub-head">Number of tests - 53</h4>
+          <p class="card-sub-para">
+            <span class="card-span">MRP: ₹ 10000 </span> ₹8490
+          </p>
+          <button class="btn card-btn">Proceed</button>
+        </div>
+        <div class="card">
+          <h3 class="card-head">Basic Full Body Checkup</h3>
+          <p class="card-review">
+            4.3 <i class="fas fa-star card-star"></i> ( 75 Reviews )
+          </p>
+          <h4 class="card-sub-head">Number of tests - 53</h4>
+          <p class="card-sub-para">
+            <span class="card-span">MRP: ₹ 10000 </span> ₹8490
+          </p>
+          <button class="btn card-btn">Proceed</button>
+        </div>
+        <div class="card">
+          <h3 class="card-head">Basic Full Body Checkup</h3>
+          <p class="card-review">
+            4.3 <i class="fas fa-star card-star"></i> ( 75 Reviews )
+          </p>
+          <h4 class="card-sub-head">Number of tests - 53</h4>
+          <p class="card-sub-para">
+            <span class="card-span">MRP: ₹ 10000 </span> ₹8490
+          </p>
+          <button class="btn card-btn">Proceed</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section acc">
+      <div class="section-title">
+        <h2>Why <span class="banner-span">choose </span>us?</h2>
+        <p class="package-para">
+          We want you and your heart to be healthy so you can live a happy life!
+        </p>
+      </div>
+
+      <div class="acc-center">
+        <div class="mobile-acc">
+          <div
+            style="
+              visibility: hidden;
+              position: absolute;
+              width: 0px;
+              height: 0px;
+            "
+          >
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <symbol viewBox="0 0 24 24" id="expand-more">
+                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                <path d="M0 0h24v24H0z" fill="none" />
+              </symbol>
+              <symbol viewBox="0 0 24 24" id="close">
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+                <path d="M0 0h24v24H0z" fill="none" />
+              </symbol>
+            </svg>
+          </div>
+
+          <details>
+            <summary>
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121001/54faee57a4b5ceedd5ebe33ab7c68d08_z90wgu.png"
+                style="
+                  border-radius: 50%;
+                  height: 80px;
+                  width: 80px;
+                  margin-right: 1rem;
+                "
+                alt="acc-img"
+                class="acc-img"
+              />
+              NABL Accredited Labs
+              <svg
+                class="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#expand-more"
+                />
+              </svg>
+              <svg
+                class="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#close"
+                />
+              </svg>
+            </summary>
+            <p>
+              Get accurate and safe results from our NABL-certified lab
+              partners.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/477a4dbd9106f27a0a5849429422bdb7_gnfhuf.png"
+                style="
+                  border-radius: 50%;
+                  height: 80px;
+                  width: 80px;
+                  margin-right: 1rem;
+                "
+                alt="acc-img"
+                class="acc-img"
+              />
+              Transparency
+              <svg
+                class="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#expand-more"
+                />
+              </svg>
+              <svg
+                class="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#close"
+                />
+              </svg>
+            </summary>
+            <p>
+              Enjoy hassle free medical assistance with our transparent
+              approach. We prioritize transparency for your smooth
+              medical journey.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121001/5b16a88759861a9f8868d2bcc39ac494_m7zl4r.png"
+                style="
+                  border-radius: 50%;
+                  height: 80px;
+                  width: 80px;
+                  margin-right: 1rem;
+                "
+                alt="acc-img"
+                class="acc-img"
+              />
+              Timely collections
+              <svg
+                class="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#expand-more"
+                />
+              </svg>
+              <svg
+                class="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#close"
+                />
+              </svg>
+            </summary>
+            <p>
+              We collect samples timely to prevent treatment delays and ensure
+              your continued well-being.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/cda70a4e1c2c0566bb3835493bd9fae6_oino8d.png"
+                style="
+                  border-radius: 50%;
+                  height: 80px;
+                  width: 80px;
+                  margin-right: 1rem;
+                "
+                alt="acc-img"
+                class="acc-img"
+              />
+              Value experience
+              <svg
+                class="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#expand-more"
+                />
+              </svg>
+              <svg
+                class="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#close"
+                />
+              </svg>
+            </summary>
+            <p>
+              Experience seamless care without the hassle of waiting in long
+              lines for an appointment. Book with us for a healthier lifestyle.
+            </p>
+          </details>
+        </div>
+
+        <div class="review-container">
+          <div class="review-card-container card-1">
+            <div class="review-img">
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695301783/e91d102639f41043c322314c3ab279bd_xfcx93.png"
+                alt="review-img"
+                class="review-img-small"
+              />
+            </div>
+            <div class="review">
+              <h3 class="review-head">NABL Accredited Labs</h3>
+              <p class="review-para">
+                Get accurate and safe results from our NABL-certified lab
+                partners.
+              </p>
+            </div>
+          </div>
+
+          <div class="review-card-container card-2">
+            <div class="review-img">
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/477a4dbd9106f27a0a5849429422bdb7_gnfhuf.png"
+                alt="review-img"
+                class="review-img-small"
+              />
+            </div>
+            <div class="review">
+              <h3 class="review-head">Value experience</h3>
+              <p class="review-para">
+                Get accurate and safe results from our NABL-certified lab
+                partners.
+              </p>
+            </div>
+          </div>
+
+          <div class="review-card-container card-3">
+            <div class="review-img">
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/cda70a4e1c2c0566bb3835493bd9fae6_oino8d.png"
+                alt="review-img"
+                class="review-img-small"
+              />
+            </div>
+            <div class="review">
+              <h3 class="review-head">Timely collections</h3>
+              <p class="review-para">
+                We collect samples timely to prevent treatment delays and ensure
+                your continued well-being.
+              </p>
+            </div>
+          </div>
+
+          <div class="review-card-container card-4">
+            <div class="review-img">
+              <img
+                src="https://res.cloudinary.com/pirateking/image/upload/v1695121001/5b16a88759861a9f8868d2bcc39ac494_m7zl4r.png"
+                alt="review-img"
+                class="review-img-small"
+              />
+            </div>
+            <div class="review">
+              <h3 class="review-head">Transparency</h3>
+              <p class="review-para">
+                Enjoy hassle free medical assistance with our transparent
+                approach. We prioritize transparency for your smooth
+                medical journey.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-img-container">
+          <img
+            src="https://res.cloudinary.com/pirateking/image/upload/v1695121052/7abdc343ec5597511b0cfad06f6f7e17_uys00y.png"
+            alt="lady"
+            class="lady-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer">
+      <div class="not-a-line-logo">
+        <img
+          src="https://res.cloudinary.com/pirateking/image/upload/v1695121001/1671f45dd70fcc98ccd63fd9b593b28e_klwuex.png"
+          alt="not-a-line-logo-img"
+          class="logo"
+        />
+      </div>
+      <div class="desktop-view">
+        <div class="footer-text">
+          <p class="footer-para">
+            Book doctor appointments online and get your ailments treated in no
+            time with our expert medical support systems. Get rid of all your
+            medical problem with our expert panel of doctors who guide you
+            towards a healthier life.
+          </p>
+          <div class="footer-shape">
+            <div class="footer-phone-box-1">
+              <h3>+91 <span class="footer-span">|</span></h3>
+            </div>
+            <div class="footer-phone-box-2">
+              <i class="fas fa-phone"></i>
+            </div>
+          </div>
+        </div>
+        <div class="details-container">
+          <div class="details">
+            <h4 class="details-head">Services</h4>
+            <p class="details-list">Appointments</p>
+            <p class="details-list">Lab tests</p>
+            <p class="details-list">A-Z medicine</p>
+            <p class="details-list">Doctor support</p>
+          </div>
+          <div class="details">
+            <h4 class="details-head">Legal</h4>
+            <p class="details-list">General info</p>
+            <p class="details-list">Privacy policy</p>
+            <p class="details-list">Terms of services</p>
+            <p class="details-list">Consultation</p>
+            <p class="details-list">How it works</p>
+          </div>
+          <div class="details">
+            <h4 class="details-head">Talk to us</h4>
+            <p class="details-list">support@notinline.com</p>
+            <p class="details-list">appointment@notinline.com</p>
+            <p class="details-list">+91 12345 67899</p>
+            <p class="details-list">+91 97642 09752</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider" />
+      <p class="credits">
+        &copy; 2021-<span id="curr-year"></span> All Rights Reserved
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
