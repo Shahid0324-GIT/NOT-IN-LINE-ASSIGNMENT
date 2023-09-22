@@ -835,6 +835,7 @@ Packages
   background-size: cover;
   background-position: center;
   margin: 0;
+  /* height: 119.5vh; */
 }
 
 .mobile-acc {
@@ -936,9 +937,9 @@ Packages
   display: none;
 }
 
-.review-img-container {
+/* .review-img-container {
   display: none;
-}
+} */
 
 @media screen and (min-width: 992px) {
   .mobile-acc {
@@ -1195,7 +1196,7 @@ Packages
   display: none;
 }
 
-@media screen and ((min-width: 640px) and (max-width:768px)) {
+/* @media screen and ((min-width: 480px) and (max-width:992px)) {
   .image-banner-container {
     position: relative;
     margin-bottom: 4rem;
@@ -1251,7 +1252,7 @@ Packages
     left: 0;
     transform: translateX(-35%);
   }
-}
+} */
 
 @media screen and ((min-width: 992px)) {
   .top-cards-container {
