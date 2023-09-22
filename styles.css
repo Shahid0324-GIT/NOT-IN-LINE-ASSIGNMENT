@@ -996,7 +996,7 @@ Packages
 .details-head {
   color: #fff;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px; /* 166.667% */
@@ -1014,7 +1014,7 @@ Packages
 .footer-para {
   color: #fff;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
