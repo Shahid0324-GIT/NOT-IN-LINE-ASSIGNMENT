@@ -757,6 +757,7 @@ Packages
   background-size: cover;
   background-position: bottom;
   align-items: center;
+  position: relative;
 }
 
 .card {
@@ -815,6 +816,10 @@ Packages
   margin-right: 1rem;
 }
 
+.arrow-container {
+  display: none;
+}
+
 @media screen and (min-width: 992px) {
   .card-container {
     flex-direction: row;
@@ -825,6 +830,23 @@ Packages
 
   .card {
     margin: 0 2rem;
+  }
+  .right-arrow {
+    font-size: 2rem;
+  }
+
+  .arrow-container {
+    position: absolute;
+    right: 0;
+    transform: translateX(-30%);
+    border-radius: 50%;
+    text-align: center;
+    padding: 1.5rem 0.5rem;
+    height: 80px;
+    width: 80px;
+    display: block;
+    background: var(--clr-white);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
   }
 }
 
