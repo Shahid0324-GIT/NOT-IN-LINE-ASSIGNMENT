@@ -475,6 +475,40 @@ Hero
   color: #00a6ff;
 }
 
+@media screen and ((min-width: 640px) and (max-width: 769px)) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-cards-container {
+    display: block;
+  }
+
+  .image-banner-container {
+    order: 5;
+    text-align: center;
+  }
+
+  .image-container {
+    display: block;
+    margin: 0 0;
+  }
+
+  .mobile-shapes {
+    margin-top: 6rem;
+  }
+
+  .banner-image {
+    height: 380px;
+  }
+
+  .form-container {
+    order: 1;
+  }
+}
+
 @media screen and (min-width: 1140px) {
   header {
     background: linear-gradient(
@@ -538,6 +572,7 @@ Hero
 
   .image-container {
     display: block;
+    margin-left: 6rem;
   }
 
   .banner-head {
@@ -548,7 +583,7 @@ Hero
 
 @media screen and (max-width: 576px) {
   .form-container {
-    width: 380px;
+    width: 92%;
   }
 
   .form-container i {
@@ -1160,7 +1195,65 @@ Packages
   display: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and ((min-width: 640px) and (max-width:768px)) {
+  .image-banner-container {
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  .top-cards-container {
+    display: block;
+  }
+  .top-card {
+    display: flex;
+    align-items: center;
+    background: #6e6e6e38;
+    border-radius: 14px;
+    backdrop-filter: blur(16px);
+    width: 250px;
+    height: 80px;
+    padding: 3rem 1rem;
+    margin: 2rem 0;
+  }
+
+  .top-card-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .top-review-para {
+    text-align: left;
+    margin-left: 1rem;
+    color: #333;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+
+  .top-card-1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    transform: translateY(25%) translateX(-40%);
+  }
+  .top-card-2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateX(-50%);
+  }
+  .top-card-3 {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    transform: translateX(-35%);
+  }
+}
+
+@media screen and ((min-width: 992px)) {
   .top-cards-container {
     display: block;
   }
@@ -1171,7 +1264,7 @@ Packages
     background: #6e6e6e38;
     border-radius: 14px;
     backdrop-filter: blur(16px);
-    width: 300px;
+    width: 250px;
     height: 120px;
     padding: 3rem 1rem;
     margin: 2rem 0;
@@ -1198,18 +1291,18 @@ Packages
     position: absolute;
     top: 150px;
     left: 0;
-    transform: translateX(-40%);
+    transform: translateX(25%);
   }
   .top-card-2 {
     position: absolute;
     top: 43%;
     left: 0;
-    transform: translateX(-60%);
+    transform: translateX(0%);
   }
   .top-card-3 {
     position: absolute;
     top: 65%;
     left: 0;
-    transform: translateX(-20%);
+    transform: translateX(25%);
   }
 }
